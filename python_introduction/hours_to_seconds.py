@@ -1,5 +1,6 @@
+# hours_to_seconds.py
+
 hours = 2
-seconds_in_an_hour = 3600
-seconds = hours * seconds_in_an_hour
+seconds = hours * 3600
 
 print(f"{hours} hour(s) is {seconds} seconds.")
