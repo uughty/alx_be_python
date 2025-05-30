@@ -1,4 +1,4 @@
-weather = (input("What is the weather for today?: "))
+weather = input("What is the weather for today?: ").lower()
 if weather == "sunny":
     print("Wear a t-shirt and sunglasses.")
 elif weather == "rainy":
