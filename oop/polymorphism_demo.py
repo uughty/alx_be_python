@@ -1,3 +1,4 @@
+import math
 
 class Shape:
     def __init__(self):
@@ -18,4 +19,4 @@ class Circle(Shape):
         super().__init__()
         self.radius = radius
     def area(self):
-        return 3.14 * (self.radius **2)
+        return math.pi * self.radius **2
