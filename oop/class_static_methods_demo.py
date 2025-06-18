@@ -13,5 +13,5 @@ class Calculator:
     print(f"Calculation type: {cls.calculation_type}")
     return a * b 
    
-print("Sum:", Calculator.add(3, 7))             
-print("Product:", Calculator.multiply(4, 5))  
+print("Sum:", Calculator.add(7, 8))             
+print("Product:", Calculator.multiply(5, 10))  
